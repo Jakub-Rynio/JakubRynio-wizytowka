@@ -3,17 +3,16 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 
 class AboutPageController extends AbstractController
 {
     #[Route('/about/page', name: 'app_about_page')]
-    public function index(): JsonResponse
+    public function index(): Response
     {
-        return $this->json([
-            'message' => 'Welcome to your new controller!',
-            'path' => 'src/Controller/AboutPageController.php',
+        return $this->render('about_page/index.html.twig', [
+            'controller_name' => 'AboutPageController',
         ]);
     }
 }
