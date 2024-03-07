@@ -1,0 +1,52 @@
+#home_page_img{
+    background-image: url("https://as2.ftcdn.net/v2/jpg/04/02/35/23/1000_F_402352374_txIT6R8hb0MPB1NypwsidkpJLZEIUPxD.jpg");
+}
+
+.imgg{  
+    max-width: 100px;
+    max-height: 100px;
+}
+#symfony-img{
+
+    max-width: 90px;
+    max-height: 90px;
+}
+.tech-img{
+
+    max-width: 80px;
+    max-height: 80px;
+}
+#dumy{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#offer{
+    position: relative;
+    bottom:60px;
+}
+.offer-item{
+    min-height: 300px;
+}
+
+.main-img{
+    opacity: 1;
+    transition: opacity 2s ease;
+    position: absolute;
+}
+
+.secondary-img{
+    opacity: 0;
+    transition: opacity 2s ease;
+    position: absolute;
+}
+
+.offer-item:hover > .main-img{
+    opacity: 0;
+}
+
+
+.offer-item:hover > .secondary-img{
+    opacity: 1;
+    
+}

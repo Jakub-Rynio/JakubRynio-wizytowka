@@ -3,16 +3,114 @@
 {% block title %}Hello HomePageController!{% endblock %}
 
 {% block body %}
-<style>
-</style>
 
-<div class="example-wrapper">
-    <h1 class="container m-5 display-4 text-primary">Hello {{ controller_name }}! ✅</h1>
+    <div class="home">
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>C:/Users/Rynio/Desktop/JakubRynio-wizytowka/src/Controller/HomePageController.php</code></li>
-        <li>Your template at <code>C:/Users/Rynio/Desktop/JakubRynio-wizytowka/templates/home_page/index.html.twig</code></li>
-    </ul>
-</div>
+        <div class="col-12" id="home_page_img">
+            
+            <h2 class="d-flex aligcin-items-center justify-content-center pt-3 pb-3">Lorem ipsum</h2>
+            <p class="d-flex aligcin-items-center justify-content-center pt-4">is simply dummy text of the printing and typesetting</p>
+            <p class="d-flex aligcin-items-center justify-content-center pb-2">is simply dummy text of the printing and typesetting</p>
+            <p class="d-flex aligcin-items-center justify-content-center pb-5">is simply dummy text of the printing and typesetting</p>
+            <p class="d-flex aligcin-items-center justify-content-center pb-5">is simply dummy text of the printing and typesetting</p>
+
+        </div>
+    
+
+        <div id="offer" class="row col-10 offset-1 d-flex aligcin-items-center justify-content-center pb-2">
+
+            <div class="offer-item col-3  bg-primary">
+
+                <img class="main-img" src="{{asset("build/images/html-5.7edb4c52.png")}}">
+
+                <img class="secondary-img" src="{{asset("build/images/js.png")}}">
+            </div>
+
+            <div class="offer-item col-3 bg-secondary">
+
+                <img class="main-img" src="{{asset("build/images/html-5.7edb4c52.png")}}">
+
+                <img class="secondary-img" src="{{asset("build/images/js.png")}}">
+
+            </div>
+
+            <div class="offer-item col-3 bg-dark ">
+
+                <img class="main-img" src="{{asset("build/images/html-5.7edb4c52.png")}}">
+
+                <img class="secondary-img" src="{{asset("build/images/js.png")}}">
+
+            </div>
+        </div>
+
+
+        <div class="row mt-5 mb-5 ms-0 me-0">
+            <div class="col-4 offset-2 ">
+
+                <h6 class="mt-5 mb-3">Czym sie zajmuje?</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin augue tortor, commodo eget nisl a, auctor laoreet nunc. Nulla velit dolor, fermentum eu molestie eu, aliquet efficitur lectus. Pellentesque quam magna, euismod eu nunc eu, suscipit elementum massa. Nulla libero lectus, condimentum quis ante in,</p>
+
+            </div>
+
+            <div class="col-5">
+                <img src="https://nonsa.pl/images/4/46/Kiepski.jpg">
+            </div>
+        </div>
+
+
+
+            <h5 class="d-flex aligcin-items-center justify-content-center">Technologie z ktorymi pracuje</h5>
+
+        <div id="tech" class="col-12 d-flex aligcin-items-center justify-content-center">
+
+            <div class="tech_item d-inline-block ms-"><img class="tech-img" src="{{asset("build/images/html-5.7edb4c52.png")}}"/> 
+                <div class="tech_item_desc ms-4">
+                    <h6>HTML5</h6>
+                </div>
+            </div>
+
+            <div class="tech_item d-inline-block ms-2 "><img class="tech-img" src=" {{asset("build/images/wordpress.png")}} "/> 
+                <div class="tech_item_desc ms-4">
+                    <h6>CSS</h6>
+                </div>
+            </div>
+
+            <div class="tech_item d-inline-block ms-3"><img class="tech-img"src="{{asset("build/images/js.png")}}"/> 
+                <div class="tech_item_desc ms-4">
+                    <h6>HTML5</h6>
+                </div>
+            </div>
+
+            <div class="tech_item d-inline-block ms-3"><img id="symfony-img" class="tech-img" src="{{asset("build/images/symfony-icon.png")}}"/> 
+                <div class="tech_item_desc ms-4">
+                    <h6>HTML5</h6>
+                </div>
+            </div>
+
+            <div class="tech_item d-inline-block ms-3"><img class="tech-img"src="{{asset("build/images/php.png")}}"/> 
+                <div class="tech_item_desc ms-4">
+                    <h6>HTML5</h6>
+                </div>
+            </div>
+            <div class="tech_item d-inline-block ms-2"><img class="tech-img"src="{{asset("build/images/css.png")}}"/> 
+                <div class="tech_item_desc ms-4">
+                    <h6>HTML5</h6>
+                </div>
+            </div>
+            <div class="tech_item d-inline-block ms-3 mb-5"><img class="tech-img"src="{{asset("build/images/bootstrap.png")}}"/> 
+                <div class="tech_item_desc ms-4">
+                    <h6>HTML5</h6>
+                </div>
+            </div>
+
+
+        </div>
+
+    
+    
+    </div>
+
+
+
+
 {% endblock %}

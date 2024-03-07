@@ -9,3 +9,4 @@
 import './styles/app.css';
 import './styles/menu.css';
 import './styles/footer.css';
+import './styles/home_page.css';
