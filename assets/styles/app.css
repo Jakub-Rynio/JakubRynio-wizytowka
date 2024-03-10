@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(188, 185, 185);
+    background-color: #1E2021;
 }
 .button{
     opacity: 0.8;
@@ -11,4 +11,9 @@ body {
 
 p {
     color:#959799;
+}
+
+h6{
+    color:#959799;
+
 }
