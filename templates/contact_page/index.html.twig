@@ -3,18 +3,42 @@
 {% block title %}Hello ContactPageController!{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+    <div id="contact-container">
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+        <div class="col-12" id="contact_page_img" style="background-image: url('{{asset("build/images/konkatk.2d4f39d0.jpeg")}}');">
+            
+            <h2 class="d-flex aligcin-items-center justify-content-center pt-3 pb-3" style="color:darkgreen">Twój rozwój online zaczyna się od jednego telefonu!</h2>
+            <p class="baner-p d-flex aligcin-items-center justify-content-center pt-4">Jestem gotowy, by pomóc Ci w realizacji Twoich celów online.</p>
+            <p class="baner-p d-flex aligcin-items-center justify-content-center pb-2">Zadzwoń do mnie, a wspólnie stworzymy strategię dopasowaną do Twoich potrzeb i oczekiwań</p>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>C:/Users/Rynio/Desktop/JakubRynio-wizytowka/src/Controller/ContactPageController.php</code></li>
-        <li>Your template at <code>C:/Users/Rynio/Desktop/JakubRynio-wizytowka/templates/contact_page/index.html.twig</code></li>
-    </ul>
-</div>
+        </div>
+
+        <div id="contact_data" class=" contact_border mt-5 mb-5 ">
+            <div class="contact_border m-3 ps-4 pe-4 pt-3 pb-3">
+
+            <h3>Email: </h3><p class="ps-3">JakubRynio@protonmail.com</p>
+            <h3>Telefon: </h3><p class="ps-3">518 491 531</p>
+            </div>
+
+            <div class="contact_border m-3 ps-4 pe-4 pt-3 pb-3">
+
+            <h3>Poszukujesz nowych talentów?</h3><p class="ps-3">Przejrzyj moje CV poniżej.</p>
+                <div id="">
+                <a class="d-flex aligcin-items-center justify-content-center button" href="https://github.com/Jakub-Rynio" ; target="_blank">
+                    <h5 id="heaer-cv" style="color:darkgreen">Webdeveloper-JakubRynio</h5>
+                    <svg xmlns="http://www.w3.org/2000/svg"style="color:#959799;" width="24" height="24" fill="currentColor" class="bi bi-file-person-fill ms-3" viewBox="0 0 16 16">
+                    <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11"/>
+                    </svg>
+                    </a>
+
+                </div>
+            </div>
+        <div>
+
+        </div>
+
+    </div>
+
+    </div>
+
 {% endblock %}

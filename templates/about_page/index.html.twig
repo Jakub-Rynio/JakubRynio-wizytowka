@@ -3,18 +3,32 @@
 {% block title %}Hello AboutPageController!{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+<div class="about_item row mb-5 mt-5">
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <div class="about_desc col-md-7 offset-1">
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>C:/Users/Rynio/Desktop/JakubRynio-wizytowka/src/Controller/AboutPageController.php</code></li>
-        <li>Your template at <code>C:/Users/Rynio/Desktop/JakubRynio-wizytowka/templates/about_page/index.html.twig</code></li>
-    </ul>
+        <h3 class="mt-3">Doświadczenie</h3></br>
+        <p class="pe-5"> Programowanie to moja pasja, która rozkwitła podczas stażu w firmie BiznesPort w Szczecinie, gdzie miałem okazję tworzyć i edytować strony internetowe w oparciu o platformę WordPress. Po zakończeniu stażu, skoncentrowałem się na rozwijaniu umiejętności w Symfony. Opinia ze stażu w BiznesPort była dla mnie motywacją do samodzielnego eksplorowania nowych obszarów programowania. Ta wizytówka jest moim pierwszym poważnym projektem opartym na Symfony, gdzie mogę wykorzystać zdobytą wiedzę i doświadczenie, aby dostarczyć najlepsze rozwiązania dla moich klientów.</p>
+    </div>
+
+    <div class="about_img_container col-md-4">
+        <img class="about_img " src="https://cdn.leonardo.ai/users/94e43b53-9c11-4633-a9e8-b8e3a3f3f478/generations/c0dc4648-d802-4008-84ef-ec8dba35baea/Default_papers_documents_desk_dark_0.jpg"></img>
+    </div>
+
+</div>
+
+<div class="about_item row mb-5">
+
+    <div class="about_img_container col-md-4">
+        <img class="about_img " src="https://cdn.leonardo.ai/users/94e43b53-9c11-4633-a9e8-b8e3a3f3f478/generations/c0dc4648-d802-4008-84ef-ec8dba35baea/Default_papers_documents_desk_dark_0.jpg"></img>
+    </div>
+
+    <div class="about_desc col-md-7 offset-1">
+
+        <h3 class="mt-3">Edukacja</h3></br>
+        <p class="pe-5">Już od dawna nurtowała mnie pasja do programowania. Studiując informatykę na Uniwersytecie Radomskim, kontynuuję rozwój swoich umiejętności. To wspaniałe środowisko akademickie stwarza mi możliwość pogłębiania wiedzy i eksplorowania nowych obszarów w dziedzinie tworzenia oprogramowania. Ta fascynująca podróż przez świat informatyki stała się moją motywacją do poszukiwania nowych wyzwań w dziedzinie web developmentu.</p>
+    </div>
+
+
 </div>
 {% endblock %}

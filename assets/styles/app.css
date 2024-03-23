@@ -15,5 +15,16 @@ p {
 
 h6{
     color:#959799;
+}
 
+h3{
+    color:#959799;
+}
+
+.baner-p{
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
 }
