@@ -1,26 +1,32 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomePageController!{% endblock %}
 
 {% block body %}
 
-    <div class="home">
+<div class="home">
 
+    <section>
         <div class="col-12" id="home_page_img" style="background-image: url('{{ asset('build/images/strony_internetowe.9f401546.jpg') }}');">
-            
-            <h2 class="d-flex aligcin-items-center justify-content-center pt-3 pb-3" style="color:darkgreen">Stwórz ze mną swoją obecność online</h2>
-            <p class="baner-p d-flex aligcin-items-center justify-content-center pt-4">Dlaczego warto współpracować ze mną?</p>
-            <p class="baner-p d-flex aligcin-items-center justify-content-center pb-2">Moje podejście opiera się na pasji do tworzenia funkcjonalnych, estetycznych stron internetowych,</p>
-            <p class="baner-p d-flex aligcin-items-center justify-content-center pb-5">które spełniają potrzeby moich klientów i przyciągają uwagę ich  klientów.</p>
-
+            <header>
+                <h2 class="d-flex aligcin-items-center justify-content-center pt-3 pb-3" style="color:darkgreen">Stwórz ze mną swoją obecność online</h2>
+            </header>
+            <article>
+                <p class="baner-p pt-4">Dlaczego warto współpracować ze mną?</p>
+                <p class="baner-p pb-2">Moje podejście opiera się na pasji do tworzenia funkcjonalnych, estetycznych stron internetowych,</p>
+                <p class="baner-p pb-5">które spełniają potrzeby moich klientów i przyciągają uwagę ich  klientów.</p>
+            <article>
         </div>
+    </section>
 
+    <section>
         <div id="offer" class="row col-lg-10 offset-lg-1 col-md-12 d-flex aligcin-items-center justify-content-center pb-2">
 
             <div class="offer-item col-md-3 col-sm-12">
 
                 <img class="main-img" src="{{asset("build/images/towrzenie-stron-1.jpm.ea876528.jpg")}}">
-                <p class=" offer_main_hedline ms-3">Tworzenie Stron Internetowych</p>
+                <header>
+                    <p class=" offer_main_hedline ms-3">Tworzenie Stron Internetowych</p>
+                </header>
                 <img class="secondary-img" src="{{asset("build/images/tworzenie-stron.a6420bde.jpg")}}">
 
                 <ul class="offer_secondary_hedline ms-3">
@@ -33,7 +39,9 @@
             <div class="offer-item col-md-3 col-sm-12">
 
                 <img class="main-img" src="{{asset("build/images/edycja-stron-1.6f20050f.jpg")}}">
-                <p class=" offer_main_hedline ms-4">Edycja Stron Internetowych</p>
+                <header>
+                    <p class=" offer_main_hedline ms-4">Edycja Stron Internetowych</p>
+                </header>
                 <img class="secondary-img" src="{{asset("build/images/edycja-stron-2.925955fa.jpg")}}">
                 <ul class="offer_secondary_hedline ms-3">
                     <li>edycja stron opartych na symfony i wordpress</li>
@@ -44,7 +52,9 @@
             <div class="offer-item col-md-3 col-sm-12">
 
                 <img class="main-img" src="{{asset("build/images/wykres-SEO.fa489a64.jpg")}}">
-                <p class=" offer_main_hedline ">Optymalizacja SEO</p>
+                <header>
+                    <p class=" offer_main_hedline ">Optymalizacja SEO</p>
+                </header>
                 <img class="secondary-img" src="{{asset("build/images/wykres-SEO-2.19687625.jpg")}}">
                 <ul class="offer_secondary_hedline ms-3">
                     <li>Audyty SEO</li>
@@ -52,80 +62,72 @@
                     <li>Powyrzsze działania służą podniesieniu Twojej trony w wynikach wyszukiwania</li>
                 </ul>
             </div>
-
         </div>   
+    </section>
 
+    <section>
         <div class="row mt-5 mb-5 ms-0 me-0">
             <div class="col-lg-4 col-md-6 offset-lg-2 ">
-
-                <h4 class="mt-5 mb-3" style="color:darkgreen">Czym sie zajmuje?</h4>
-                <p>Jestem pasjonatem tworzenia i edytowania stron internetowych, a moją specjalnością są projekty oparte na Symfony i WordPress. W mojej pracy kładę ogromny nacisk na optymalizację SEO, aby zapewnić moim klientom widoczność i skuteczność w dzisiejszym cyfrowym świecie. Projektowanie stron internetowych to dla mnie nie tylko praca, ale również sposób na wyrażenie kreatywności i eksplorację nowych technologii. Mimo że jestem na początku mojej drogi zawodowej, mogę pochwalić się solidnym zestawem umiejętności, który stale rozwijam i ulepszam. W każdym projekcie wkładam całe serce i zaangażowanie, dążąc do stworzenia unikalnych, funkcjonalnych i estetycznych stron, które spełniają oczekiwania moich klientów.</p>
+                <header>
+                    <h4 class="mt-5 mb-3" style="color:darkgreen">Czym sie zajmuje?</h4>
+                </header>
+                <article>
+                    <p>Jestem pasjonatem tworzenia i edytowania stron internetowych, a moją specjalnością są projekty oparte na Symfony i WordPress. W mojej pracy kładę ogromny nacisk na optymalizację SEO, aby zapewnić moim klientom widoczność i skuteczność w dzisiejszym cyfrowym świecie. Projektowanie stron internetowych to dla mnie nie tylko praca, ale również sposób na wyrażenie kreatywności i eksplorację nowych technologii. Mimo że jestem na początku mojej drogi zawodowej, mogę pochwalić się solidnym zestawem umiejętności, który stale rozwijam i ulepszam. W każdym projekcie wkładam całe serce i zaangażowanie, dążąc do stworzenia unikalnych, funkcjonalnych i estetycznych stron, które spełniają oczekiwania moich klientów.</p>
+                <article>
             </div>
-
             <div class="col-lg-5 col-md-3">
-
                 <img src="https://nonsa.pl/images/4/46/Kiepski.jpg">
             </div>
         </div>
+    </section>
 
+    <section>
         <h4 class="d-flex aligcin-items-center justify-content-center mb-5 mt-5" style="color:darkgreen">Technologie z ktorymi pracuje</h4>
 
         <div id="tech" class="mb-5 row col-12 d-flex aligcin-items-center justify-content-center">
-
             <div class="tech_item col-lg-1 col-md-2 "><img class="tech-img " src="{{asset("build/images/html-5.7edb4c52.png")}}"/> 
-
                 <div class="tech_item_desc mt-2">
-
                     <h6>HTML5</h6>
                 </div>
             </div>
 
             <div class="tech_item col-lg-1 col-md-2 "><img class="tech-img " src=" {{asset("build/images/wordpress.png")}} "/> 
-
                 <div class="tech_item_desc mt-2">
-
                     <h6>Wordpress</h6>
                 </div>
             </div>
 
             <div class="tech_item col-lg-1 col-md-2 "><img class="tech-img"src="{{asset("build/images/js.png")}}"/> 
-
                 <div class="tech_item_desc mt-2">
-
                     <h6>JavaScript</h6>
                 </div>
             </div>
 
             <div class="tech_item col-lg-1 col-md-2 "><img id="symfony-img" class="tech-img" src="{{asset("build/images/symfony-icon.png")}}"/> 
-
                 <div class="tech_item_desc mt-2">
-
                     <h6>Symfony</h6>
                 </div>
             </div>
 
             <div class="tech_item col-lg-1 col-md-2 "><img class="tech-img"src="{{asset("build/images/php.png")}}"/> 
-
                 <div class="tech_item_desc mt-2">
-
                     <h6>PHP</h6>
                 </div>
             </div>
 
             <div class="tech_item col-lg-1 col-md-2 "><img class="tech-img"src="{{asset("build/images/css.png")}}"/> 
-
                 <div class="tech_item_desc mt-2">
-
                     <h6>CSS</h6>
                 </div>
             </div>
 
             <div class="tech_item col-lg-1 col-md-2 "><img class="tech-img"src="{{asset("build/images/bootstrap.png")}}"/> 
-
                 <div class="tech_item_desc mt-2">
                     <h6>Bootstrap</h6>
                 </div>
+
             </div>
         </div>
-    </div>
+    </section>
+</div>
 {% endblock %}
